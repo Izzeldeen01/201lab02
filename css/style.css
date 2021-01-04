@@ -1,0 +1,11 @@
+main{
+padding: 50px;
+
+background-color : yellowgreen;
+margin: 50px;
+}
+.firstlist {
+    display: inline;
+    float: right;
+    border:2px yellow solid;
+}
