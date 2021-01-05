@@ -72,11 +72,48 @@ else {
     alert('its a yes or no qustion!');
    // var mentalhelth = ('do you think I am syco?');
 }
-if (a > 2) {
-    alert('thank you for knowing me!   '+ username );
+var x = 100 ; 
+
+
+for (var t=4 ; t>=1 ; t-- ){
+    var y = prompt ('guess what is my favourit number?  you have '+ t + '  attembts' ); 
+    while (y != isNaN){
+    y = prompt ('guess what is my favourit number?  you have '+ t + '  attembts' );
+ y = parseInt(y);
+break;}
+if (y==x){
+    a=a+1;
+    t=0;
+}else if (y>x){
+    alert ('too high');
+}else {
+    alert('too low');
 }
-else {
-    alert('poor you! we need to meet more!   ' + username);
+
+}  
+if (x!=y){
+    alert ('my favourit number is 100');} 
+
+var mostLovedCars = ['g class','bmw 720i','brabous 6x6','tesla'];
+
+for (t=6 ; t>=1 ; t--){
+    var car = prompt ('guess my favourit car! you have   '+ t +'  attembts!' ); 
+    for (var i=0;i<4;i++){
+    if (car.toLowerCase() === mostLovedCars[i]){
+        a=a+1;
+        t = 0;
+    
+    }}
+
 }
+alert ('my favourit cars are:   '+ mostLovedCars);
+alert ('you got       ' + a + '/7'); 
+
+
+
+
+
+
+
 
 
